@@ -2,5 +2,5 @@
 
 - name: Install vagrant
   pkgng:
-    name: vagrant
+    name: "{{ vagrant_package }}"
     state: present

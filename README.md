@@ -1,6 +1,6 @@
 # ansible-role-vagrant
 
-A brief description of the role goes here.
+Install `vagrant`.
 
 # Requirements
 
@@ -8,9 +8,16 @@ None
 
 # Role Variables
 
-| variable | description | default |
+| Variable | Description | Default |
 |----------|-------------|---------|
+| `vagrant_package` | Package name of `vagrant` | `{{ __vagrant_package }}` |
 
+
+## FreeBSD
+
+| Variable | Default |
+|----------|---------|
+| `__vagrant_package` | `vagrant` |
 
 # Dependencies
 
@@ -19,6 +26,10 @@ None
 # Example Playbook
 
 ```yaml
+- hosts: localhost
+  roles:
+    - ansible-role-vagrant
+  vars:
 ```
 
 # License
