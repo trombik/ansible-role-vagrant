@@ -2,4 +2,3 @@
   roles:
     - ansible-role-vagrant
   vars:
-    vagrant_config: ""
