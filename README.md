@@ -12,6 +12,12 @@ None
 |----------|-------------|---------|
 | `vagrant_package` | Package name of `vagrant` (URL to RPM package when the platform is one of RedHat variants) | `{{ __vagrant_package }}` |
 
+## Debian
+
+| Variable | Default |
+|----------|---------|
+| `__vagrant_package` | `vagrant` |
+
 ## FreeBSD
 
 | Variable | Default |
