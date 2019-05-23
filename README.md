@@ -10,14 +10,19 @@ None
 
 | Variable | Description | Default |
 |----------|-------------|---------|
-| `vagrant_package` | Package name of `vagrant` | `{{ __vagrant_package }}` |
-
+| `vagrant_package` | Package name of `vagrant` (URL to RPM package when the platform is one of RedHat variants) | `{{ __vagrant_package }}` |
 
 ## FreeBSD
 
 | Variable | Default |
 |----------|---------|
 | `__vagrant_package` | `vagrant` |
+
+## RedHat
+
+| Variable | Default |
+|----------|---------|
+| `__vagrant_package` | `https://releases.hashicorp.com/vagrant/2.2.4/vagrant_2.2.4_x86_64.rpm` |
 
 # Dependencies
 

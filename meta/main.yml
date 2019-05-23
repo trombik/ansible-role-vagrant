@@ -11,5 +11,8 @@ galaxy_info:
       versions:
         - 11.2
         - 12.0
+    - name: EL
+      versions:
+        - 7
   galaxy_tags:
     - vagrant
