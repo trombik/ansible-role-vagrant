@@ -1,0 +1,6 @@
+---
+
+- name: Install vagrant
+  yum:
+    name: "{{ vagrant_package }}"
+    state: present
