@@ -1,0 +1,6 @@
+---
+
+- name: Install vagrant
+  apt:
+    name: "{{ vagrant_package }}"
+    state: present
